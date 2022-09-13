@@ -32,7 +32,6 @@ function showClientsWindow(type) {
 }
 
 function clientSelectChangeListener(value) {
-  console.log(value);
   let clientOptions = '';
   let clients;
 
