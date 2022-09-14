@@ -18,6 +18,10 @@ Run mysql client:
 
 - `docker-compose exec db mysql -u root -p` 
 
+
+
+http://localhost:8001/index.php?cl=main - interface
+
 Dont forget to set: SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 
 Enjoy !
